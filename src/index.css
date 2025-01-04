@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Pixelify+Sans:wght@400..700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* --color-background: 41 41 41; */
+    --color-background: 233 174 227;
+    /* --color-surface: 30 30 30; */
+    --color-surface: 255 255 255;
+    /* --color-primary: 3 218 198; */
+    --color-primary: 210 104 204;
+    /* --color-text: 225 225 225; */
+    --color-text: 56 90 100;
+  }
+}
