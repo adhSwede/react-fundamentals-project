@@ -1,10 +1,12 @@
+import heroImg from "../assets/images/hero.jpg";
+
 function Hero() {
   return (
     <main className="shadow-lg  p-6 box-border flex flex-col justify-center items-center bg-surface rounded-2xl">
       <div className="flex box-border p-10 flex-col lg:flex-row">
         <img
           className="lg:size-1/2 rounded-2xl m-8"
-          src="src/assets/images/hero.jpg"
+          src={heroImg}
           alt="hero image"
         />
         <div className="flex flex-col box-border items-center gap-10">
